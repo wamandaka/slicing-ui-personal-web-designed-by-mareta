@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="about"
-        className="flex flex-col-reverse sm:flex-row pt-24 px-4 mx-auto sm:px-16 sm:pt-36 md:px-20"
+        className="flex flex-col-reverse sm:flex-row pt-24 px-4 mx-auto sm:px-16 sm:pt-36 md:px-20 lg:pt-24 "
       >
         <div className="py-5 lg:w-[50%] lg:pt-24">
           <p className="font-bold mt-3">Mareta Ayu Handanari</p>
@@ -24,7 +24,11 @@ const Hero = () => {
             Contact Me
           </a>
         </div>
-        <img src={imgHero} alt="" className="w-[50%] mx-auto drop-shadow-2xl md:w-[50%] md:h-[50%]" />
+        <img
+          src={imgHero}
+          alt=""
+          className="w-[50%] mx-auto drop-shadow-2xl md:w-[45%] md:h-[45%]"
+        />
       </section>
     </>
   );
